@@ -31,7 +31,7 @@ catkin_make -j1
 ## Source environment and start simulation
 ```bash
 source devel/setup.bash
-roslaunch fsd_common_meta trackdrive.launch
+roslaunch fssim_interface fssim.launch
 ```
 Wait a few seconds until the simulation is fully loaded and execute in another terminal(tab)
 ```bash
