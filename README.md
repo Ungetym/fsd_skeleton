@@ -10,6 +10,18 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C
 sudo apt-get update
 sudo apt-get install ros-melodic-desktop-full python-catkin-tools
 ```
+## Environment setup
+Add the following lines to your `.bashrc` or `.zshrc` file, otherwise the commands must be run every time a new terminal is opened.
+
+For `bash` users
+```bash
+source /opt/ros/<ROS-version>/setup.bash
+```
+For `zsh` users
+```bash
+. /opt/ros/<ROS-version>/setup.zsh
+```
+In our case the ROS version is melodic.
 
 ## Other useful stuff:
 Use tmux to subdivide your terminal window instead of opening multiple terminal windows or tabs.
