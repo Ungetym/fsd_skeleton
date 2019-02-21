@@ -2,6 +2,8 @@ Fork of [AMZ-Driverless/fsd_skeleton](https://github.com/AMZ-Driverless/fsd_skel
 
 # General Instruction for ROS
 
+## First install [this fork of AMZ-Driverless/fssim](https://github.com/Ungetym/fssim/edit/master/README.md)
+
 ## Installation of ROS on Mint 19 (based on Ubuntu 18.04 bionic):
 
 ```bash
