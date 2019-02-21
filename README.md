@@ -33,7 +33,7 @@ catkin_make -j1
 source devel/setup.bash
 roslaunch fssim_interface fssim.launch
 ```
-Wait a few seconds until the simulation is fully loaded and execute in another terminal(tab)
+Wait a few seconds until the simulation is fully loaded, uncheck and check 'RobotModel' to correctly load the car model and execute in another terminal(tab)
 ```bash
 cd fsd_skeleton
 source devel/setup.bash
