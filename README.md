@@ -15,7 +15,7 @@ sudo apt-get install ros-melodic-desktop-full python-catkin-tools
 Use tmux to subdivide your terminal window instead of opening multiple terminal windows or tabs.
 
 # Setting up the Workspace
-## First install [this fork of AMZ-Driverless/fssim](https://github.com/Ungetym/fssim/edit/master/README.md)
+## First install [this fork of AMZ-Driverless/fssim](https://github.com/Ungetym/fssim)
 ## Clone the repository and install dependencies
 ```bash
 git clone https://github.com/Ungetym/fsd_skeleton.git
