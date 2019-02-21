@@ -2,8 +2,6 @@ Fork of [AMZ-Driverless/fsd_skeleton](https://github.com/AMZ-Driverless/fsd_skel
 
 # General Instruction for ROS
 
-## First install [this fork of AMZ-Driverless/fssim](https://github.com/Ungetym/fssim/edit/master/README.md)
-
 ## Installation of ROS on Mint 19 (based on Ubuntu 18.04 bionic):
 
 ```bash
@@ -17,6 +15,7 @@ sudo apt-get install ros-melodic-desktop-full python-catkin-tools
 Use tmux to subdivide your terminal window instead of opening multiple terminal windows or tabs.
 
 # Setting up the Workspace
+## First install [this fork of AMZ-Driverless/fssim](https://github.com/Ungetym/fssim/edit/master/README.md)
 ## Clone the repository and install dependencies
 ```bash
 git clone https://github.com/Ungetym/fsd_skeleton.git
