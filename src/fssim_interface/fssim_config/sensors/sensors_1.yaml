@@ -29,8 +29,8 @@ stream_track:
 
 sensors:
   lidar:
-    enabled: false
-    topic: lidar/raw
+    enabled: true
+    topic: /lidar/raw
     pos:
       x: 0.75
       y: 0.0
@@ -74,6 +74,14 @@ sensors:
 
     gaussian_noise_mu_angular:    0.00    # Mean of Gaussian noise on \theta (cone position is described with [r,\theta]) cone position (radial coordinates)
     gaussian_noise_sigma_angular: 0.007   # Variance of Gaussian noise on r (cone position is described with [r,\theta]) cone position (radial coordinates)
+
+  camera:
+    enabled: true
+    topic_name: /camera/raw
+    pos:
+      x: 0.75
+      y: 0.0
+      z: 0.7
 
   camera_pipeline:
     enabled: true
